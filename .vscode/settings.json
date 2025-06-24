@@ -1,0 +1,18 @@
+{
+    "dbcode.connections": [
+        {
+            "connectionId": "QfVayvY99YK4GlJVh3kaz",
+            "name": "AD-Task-3",
+            "driver": "postgres",
+            "connectionType": "host",
+            "host": "localhost",
+            "port": 5126,
+            "ssl": false,
+            "username": "user",
+            "password": "password",
+            "savePassword": "secretStorage",
+            "readOnly": false,
+            "connectionTimeout": 30
+        }
+    ]
+}

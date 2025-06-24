@@ -1,14 +1,19 @@
 {
     "name": "ceji-b/ad-task-3-part-1",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ceji-B\\AD-Task-3-Part-1\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Ceji-B",
             "email": "christianebanaag@gmail.com"
         }
     ],
-    "scripts": {
-        "start": "php -S localhost:8000 router.php"
-    },
-    "require": {}
+     "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
+
