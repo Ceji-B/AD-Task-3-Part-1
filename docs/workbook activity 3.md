@@ -115,6 +115,8 @@ Create more tables for the following
 - [ ] Project ↔ User assignments
 - [ ] Tasks
 
+
+
 Just Copy the following for the `project_users.model.sql`
 ```sql
 CREATE TABLE IF NOT EXISTS project_users (
