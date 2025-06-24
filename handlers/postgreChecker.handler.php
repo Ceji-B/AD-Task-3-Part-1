@@ -1,10 +1,10 @@
 <?php
 
 $host = "host.docker.internal"; 
-$port = "5112";
+$port = "5126";
 $username = "user";
 $password = "password";
-$dbname = "mydatabase";
+$dbname = "cejibase";
 
 $conn_string = "host=$host port=$port dbname=$dbname user=$username password=$password";
 
